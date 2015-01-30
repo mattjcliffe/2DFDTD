@@ -66,7 +66,7 @@ Hy=zeros(xdim,zdim);
 % Initialization of permittivity and permeability matrices
 epsilon=epsilon0*ones(xdim,zdim);
 %epsilon(1:xdim/2,1:zdim)=1.0*epsilon0;
-epsilon(250:750,1:400)=10.0*epsilon0;
+epsilon(1:xdim,1:zdim)=10.0*epsilon0;
 %epsilon(580:xdim,1:zdim)=10.0*epsilon0;
 
 
